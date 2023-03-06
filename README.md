@@ -54,13 +54,15 @@ Este programa cubrirá los conocimientos fundamentales de Python & Data Visualiz
 
 En este calendario verás las sesiones que están agendadas durante este curso :
 
-
+<img width="1195" alt="1" src="https://user-images.githubusercontent.com/115300095/223199718-a00b5fcb-f48c-4ff2-8085-194029906ac4.png">
+<img width="1193" alt="2" src="https://user-images.githubusercontent.com/115300095/223199727-fec03cda-5339-424c-bc6e-5e87b48e2d1d.png">
+<img width="1194" alt="3" src="https://user-images.githubusercontent.com/115300095/223199730-1898c686-3c5f-4bf1-80fc-d665ff818a97.png">
 
 # IV - Curricula Del Entrenamiento
 
 **Syllabus**
 
-Puede ver la información detallada del contenido de este entrenamiento haciendo clic [AQUI](https://github.com/wizelineacademy/GEPP-Python-DataVisualization-2023/files/10412949/DSA.-.GEPP.Python.Data.Visualization_.Syllabus._.Wizeline.pdf)
+Puede ver la información detallada del contenido de este entrenamiento haciendo clic [AQUI]
 
 **Comentarios de la sesión**
 
