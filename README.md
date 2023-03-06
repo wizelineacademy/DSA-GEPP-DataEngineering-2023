@@ -66,11 +66,11 @@ Puede ver la información detallada del contenido de este entrenamiento haciendo
 
 **Comentarios de la sesión**
 
-Al final de cada sesión en vivo, completa nuestra [Encuesta de Retroalimentacion](https://docs.google.com/forms/d/e/1FAIpQLSfLdsad4R7pjyTppTO6haFmeIr_A5xZqgQvN5Bq2LmsBMY1VA/viewform) para ayudarnos a mejorar tu experiencia de aprendizaje.
+Al final de cada sesión en vivo, completa nuestra [Encuesta de Retroalimentacion](https://docs.google.com/forms/d/e/1FAIpQLScl8CX9CGYCL0SnhF9r7C_XnbDMcbehrvJgzp6DK3QYQfbY8Q/viewform) para ayudarnos a mejorar tu experiencia de aprendizaje.
 
 **Desglose del Entrenamiento**
 
-Los temas se dividen en 8 semanas, 2 sesiones por semana, 1 hora 30 minutos por sesión :
+Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **SEMANA 1**
 
@@ -78,143 +78,161 @@ Los temas se dividen en 8 semanas, 2 sesiones por semana, 1 hora 30 minutos por 
 
 **Sesion Kick Off : Introducción al curso Intro To Python**
 
-**Fecha : Viernes 13 Enero 2023**
+**Fecha : Viernes 17 Marzo 2023**
 
 **Instructor : DSA Staff**
 
-- [Grabación](https://youtu.be/hn2oLMXVuTE)
+- [Grabación]
 
 **SEMANA 2**
 
-**Sesión 1 : Intro To Python**
+**Sesión 1 : Programming**
 
-**Fecha : Martes 17 Enero 2023**
+**Fecha : Martes 21 Marzo 2023**
 
-**Instructor : David Sol**
-
-- [Grabación](https://youtu.be/5c1MNrrA3-4)
-
-**Sesión 2 : Setting Your Environment**
-
-**Fecha : Viernes 20 Enero 2023**
-
-**Instructor : David Sol**
-
-- [Grabación](https://youtu.be/ApM7euyDtU0)
-
-**SEMANA 3**
-
-**Sesión 3 : IDEs & Git**
-
-**Fecha : Martes 24 Enero 2023**
-
-**Instructor : David Sol**
-
-- [Grabación](https://youtu.be/IyrebHIBfsk)
-
-**Sesión 4 : Jupyter & Notebooks**
-
-**Fecha : Viernes 27 Enero 2023**
-
-**Instructor : Marco Mendoza**
-
-- [Grabación](https://youtu.be/gmhTj-PjYSs)
-
-**SEMANA 4**
-
-**Sesión 5 : Python Basics**
-
-**Fecha : Martes 31 Enero 2023**
-
-**Instructor : Ricardo Valdez**
-
-- [Grabación](https://youtu.be/r_87xY9-bCE)
-
-**Sesión 6 : Pandas**
-
-**Fecha : Viernes 3 Febrero 2023**
-
-**Instructor : Marco Mendoza**
-
-- [Grabación](https://youtu.be/7SKyMbeyBUA)
-
-**SEMANA 5**
-
-**Sesión 7 : Processing Data**
-
-**Fecha : Martes 7 Febrero 2023**
-
-**Instructor : Ricardo Valdez**
-
-- [Grabación](https://youtu.be/645O593xZ4k)
-
-**Sesión 8 : Processing More Data**
-
-**Fecha : Viernes 10 Febrero 2023**
-
-**Instructor : Marco Mendoza**
-
-- [Grabación](https://youtu.be/Ck6FXJ2wrsU)
-
-**SEMANA 6**
-
-**Sesión 9 : Fundamentals of Exploratory Data Analysis (EDA)**
-
-**Fecha : Martes 14 Febrero 2023**
-
-**Instructor : Marco Mendoza**
-
-- [Grabación](https://youtu.be/ESdmSOBN-7Q)
-
-**Sesión 10 : Data Visualizations**
-
-**Fecha : Viernes 17 Febrero 2023**
-
-**Instructor : Ricardo Valdez**
-
-- [Grabación](https://youtu.be/5xRoeVZXfes)
-
-**SEMANA 7**
-
-**Sesión 11 : Data Analysis**
-
-**Fecha : Martes 21 Febrero 2023**
-
-**Instructor : Ricardo Valdez**
-
-- [Grabación](https://youtu.be/rDZzDWcx0_M)
-
-**Sesión 12 : Machine Learning and AI in the Cloud**
-
-**Fecha : Viernes 24 Febrero 2023**
-
-**Instructor : Ricardo Valdez**
-
-- [Grabación](https://youtu.be/QrIz_jPd60o)
-
-**SEMANA 8**
-
-**Sesión Final : Demostración final/Proyecto final**
-
-**Fecha : Martes 28 Febrero 2023**
-**Instructor : Ricardo Valdez**
+**Instructor : Benjamin Gonzalez**
 
 - [Grabación]
 
+**Sesión 2 : Data Structures**
+
+**Fecha : Viernes 24 Marzo 2023**
+
+**Instructor : Benjamin Gonzalez**
+
+- [Grabación]
+
+**SEMANA 3**
+
+**Sesión 3 : Storage Management**
+
+**Fecha : Martes 28 Marzo 2023**
+
+**Instructor : Pablo Vazquez**
+
+- [Grabación]
+
+**Sesión 4 : Data Pipelines**
+
+**Fecha : Viernes 31 Marzo 2023**
+
+**Instructor : Pablo Vazquez**
+
+- [Grabación]
+
+**SEMANA 4**
+
+**Sesión 5 : SQL Session 1**
+
+**Fecha : Martes 4 Abril 2023**
+
+**Instructor : Alejandra Zuñiga**
+
+- [Grabación]
+
+**SEMANA 5**
+
+**Sesión 6 : SQL Session 2**
+
+**Fecha : Martes 11 Abril 2023**
+
+**Instructor : Alejandra Zuñiga**
+
+- [Grabación]
+
+**Sesión 7 : Spark Core Concepts**
+
+**Fecha : Viernes 14 Abril 2023**
+
+**Instructor : John Sanchez**
+
+- [Grabación]
+
+**SEMANA 6**
+
+**Sesión 8 : Distributed Processing Tools on each Cloud Provider**
+
+**Fecha : Martes 18 Abril 2023**
+
+**Instructor : Saul Ramirez**
+
+- [Grabación]
+
+**Sesión 9 : Docker**
+
+**Fecha : Viernes 21 Abril 2023**
+
+**Instructor : Roberto Mendoza**
+
+- [Grabación]
+
+**SEMANA 7**
+
+**Sesión 10 : Secure Code/Best Practices Cloud/Cloud Introduction (AWS/GCP)**
+
+**Fecha : Martes 25 Abril 2023**
+
+**Instructor : Said Montiel**
+
+- [Grabación]
+
+**Sesión 11 : IaC / Terraform / Configuration as Code**
+
+**Fecha : Viernes 28 Abril 2023**
+
+**Instructor : John Sanchez**
+
+- [Grabación]
+
+**SEMANA 8**
+
+**Sesión 12 : Build your own Infrastructure**
+
+**Fecha : Martes 2 Mayo 2023**
+
+**Instructor : Said Montiel**
+
+- [Grabación]
+
+**Sesión 13 : Build your own Infrastructure 2**
+
+**Fecha : Viernes 5 Mayo 2023**
+
+**Instructor : Roberto Mendoza**
+
+- [Grabación]
+
+**SEMANA 9**
+
+**Sesión 14 : Use Airflow to load data into a database**
+
+**Fecha : Martes 9 Mayo 2023**
+
+**Instructor : John Sanchez**
+
+- [Grabación]
+
+**Sesión Final : Capstone Project/Demo Session**
+
+**Fecha : Viernes 12 Mayo 2023**
+
+**Instructor : DSA Staff**
+
+- [Grabación]
 
 # V - Proyecto Final (Capstone Project)
 
 ✴️ Como parte del proyecto final, presentarás una demostración que formará parte de la evaluación final vía Zoom, en el que reforzarás y aplicarás los conocimientos adquiridos durante el entrenamiento. 
 
-* Toda la informacion relacionada con el proyecto final, esta disponible en [ESTE](https://github.com/wizelineacademy/GEPP-Python-DataVisualization-2023/files/10408367/Intro.To.Python_Capstone.Project.pdf) documento.
+* Toda la informacion relacionada con el proyecto final, esta disponible en [ESTE] documento.
 
 # 📆 VI - Agenda tu mentoria sobre pedido (Mentoring On-Demand)
 
 Para programar una tutoría en línea personalizada con uno de los mentores, siga estas instrucciones:
 
-Seleccione [AGENDAR MENTORIA](https://docs.google.com/forms/d/e/1FAIpQLSfUyPFSBKysvJh3nVeBhusAEyPsNAKkLZCljiS9EX4qkjh2Bw/viewform),se abrirá un formulario el cual debera llenarse, te enviaremos una solicitud de reunion con los datos necesario para unirte a la sesion.
+Seleccione [AGENDAR MENTORIA](https://docs.google.com/forms/d/e/1FAIpQLSevutr2E1bAp4zYmOD-h3BwxYdt7sp5bwHGLtqfkCzBeDio9w/viewform),se abrirá un formulario el cual debera llenarse, te enviaremos una solicitud de reunion con los datos necesario para unirte a la sesion.
 
-Recuerde completar [ESTE](https://docs.google.com/forms/d/e/1FAIpQLSd9IZ0fEUsDnIqtDaA2Jy_YhccyYDeGxEEv9SXTNmefMups0Q/viewform) formulario de comentarios al final de su tutoría.
+Recuerde completar [ESTE](https://docs.google.com/forms/d/e/1FAIpQLSc7WTQ2YhpWvYPALJUM215659gaqsPx5kODqEWU1aI1IYWKHw/viewform) formulario de comentarios al final de su mentoria.
 
 # VII. Contacto de Wizeline Digital Skills Accelerator
 
