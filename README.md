@@ -82,7 +82,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : DSA Staff**
 
-- [Grabación]
+- [Grabación](https://youtu.be/qdAzTn4lUwc)
 
 **SEMANA 2**
 
