@@ -66,7 +66,7 @@ Puede ver la información detallada del contenido de este entrenamiento haciendo
 
 **Comentarios de la sesión**
 
-Al final de cada sesión en vivo, completa nuestra [Encuesta de Retroalimentacion](https://docs.google.com/forms/d/e/1FAIpQLScl8CX9CGYCL0SnhF9r7C_XnbDMcbehrvJgzp6DK3QYQfbY8Q/viewform) para ayudarnos a mejorar tu experiencia de aprendizaje.
+Al final de cada sesión en vivo, completa nuestra [Encuesta de Retroalimentacion](https://docs.google.com/forms/d/e/1FAIpQLScERsEyjQ2x1I9Bc1LvqeLddhm0I8YRxOAM2q1azatfCslugQ/viewform) para ayudarnos a mejorar tu experiencia de aprendizaje.
 
 **Desglose del Entrenamiento**
 
