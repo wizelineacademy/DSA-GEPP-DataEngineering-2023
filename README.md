@@ -92,7 +92,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Benjamin Gonzalez**
 
-- [Grabación]
+- [Grabación](https://youtu.be/uyVBPAcREzs)
 
 **Sesión 2 : Data Structures**
 
