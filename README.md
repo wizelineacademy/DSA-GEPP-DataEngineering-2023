@@ -100,7 +100,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Benjamin Gonzalez**
 
-- [Grabación]
+- [Grabación](https://youtu.be/B3gGXN8WA6U)
 
 **SEMANA 3**
 
