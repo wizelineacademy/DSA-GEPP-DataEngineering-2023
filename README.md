@@ -62,7 +62,7 @@ En este calendario verás las sesiones que están agendadas durante este curso :
 
 **Syllabus**
 
-Puede ver la información detallada del contenido de este entrenamiento haciendo clic [AQUI]
+Puede ver la información detallada del contenido de este entrenamiento haciendo clic [AQUI](https://github.com/wizelineacademy/DSA-GEPP-DataEngineering-2023/files/11083504/DSA.-.GEPP.Data.Engineering_.Syllabus._.Wizeline.pdf)
 
 **Comentarios de la sesión**
 
