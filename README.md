@@ -110,7 +110,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Pablo Vazquez**
 
-- [Grabación]
+- [Grabación](https://youtu.be/OJkNZWiFqx8)
 
 **Sesión 4 : Data Pipelines**
 
