@@ -118,7 +118,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Pablo Vazquez**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=RifMVzPBujQ)
 
 **SEMANA 4**
 
