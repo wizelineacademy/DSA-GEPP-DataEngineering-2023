@@ -128,7 +128,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Alejandra Zuñiga**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=56L3xKMfC5E&feature=youtu.be)
 
 **SEMANA 5**
 
@@ -138,7 +138,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Alejandra Zuñiga**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=0NctP9ifsLM)
 
 **Sesión 7 : Spark Core Concepts**
 
