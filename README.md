@@ -146,7 +146,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : John Sanchez**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=OHI0e51ixrE)
 
 **SEMANA 6**
 
@@ -156,7 +156,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Saul Ramirez**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=0Ms3qVNeFgw)
 
 **Sesión 9 : Docker**
 
