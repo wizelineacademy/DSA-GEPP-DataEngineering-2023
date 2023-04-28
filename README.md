@@ -182,7 +182,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : John Sanchez**
 
-- [Grabación]
+- [Grabación](https://youtu.be/xVv5cDAYLxU)
 
 **SEMANA 8**
 
