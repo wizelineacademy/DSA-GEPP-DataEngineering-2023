@@ -192,7 +192,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Said Montiel**
 
-- [Grabación]
+- [Grabación](https://youtu.be/_nVwXfDJJyI)
 
 **Sesión 13 : Build your own Infrastructure 2**
 
