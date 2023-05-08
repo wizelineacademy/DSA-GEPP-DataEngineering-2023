@@ -158,13 +158,13 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 - [Grabación](https://www.youtube.com/watch?v=0Ms3qVNeFgw)
 
-**Sesión 9 : Docker**
+**Sesión 9 : Containers & Docker**
 
 **Fecha : Viernes 21 Abril 2023**
 
 **Instructor : Roberto Mendoza**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=QfBJZt5FLAo)
 
 **SEMANA 7**
 
@@ -174,7 +174,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Said Montiel**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=7Eo2lggX91I)
 
 **Sesión 11 : IaC / Terraform / Configuration as Code**
 
@@ -182,7 +182,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : John Sanchez**
 
-- [Grabación]
+- [Grabación](https://youtu.be/xVv5cDAYLxU)
 
 **SEMANA 8**
 
@@ -192,7 +192,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Said Montiel**
 
-- [Grabación]
+- [Grabación](https://youtu.be/_nVwXfDJJyI)
 
 **Sesión 13 : Build your own Infrastructure 2**
 
