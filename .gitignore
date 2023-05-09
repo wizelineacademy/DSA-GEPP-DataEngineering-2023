@@ -33,3 +33,6 @@ override.tf.json
 # example: *tfplan*
 
 .DS_Store
+
+# Jupyter Notebooks checpoints
+.ipynb_checkpoints
