@@ -1,0 +1,6 @@
+-c https://raw.githubusercontent.com/apache/airflow/constraints-2.2.2/constraints-3.7.txt
+apache-airflow-providers-amazon
+apache-airflow-providers-mysql
+snowflake-sqlalchemy
+requests
+pandas
