@@ -15,6 +15,8 @@ from airflow import DAG
 from airflow.decorators import dag, task
 from airflow.operators.dummy import DummyOperator
 from airflow.operators.python import PythonOperator
+from airflow.providers.mysql.operators.mysql import MySqlOperator
+from airflow.providers.mysql.transfers.s3_to_mysql import S3ToMySqlOperator
 
 # Setting LOG level and format, for mor info visit https://www.logicmonitor.com/blog/python-logging-levels-explained
 logging.basicConfig(format='%(levelname)s : %(message)s',
@@ -32,6 +34,7 @@ SECRET_NAME = "rds-mysql"
 REGION_NAME = "us-east-1"
 S3_KEY_ORIGINAL = f"session-14-airflow/denue/original/{FILE_NAME}"
 S3_KEY_FINAL = f"session-14-airflow/denue/final/{FILE_NAME}"
+TABLE_NAME = "denue_inegi"
 
 # Setting the config for the Session
 session = boto3.session.Session()
@@ -275,6 +278,7 @@ default_args = {
     #'email_on_retry': True,
     'retries': 1,
     'retry_delay': timedelta(minutes=3),
+    'mysql_conn_id': SECRET_NAME
 }
 
 @dag(
@@ -308,6 +312,17 @@ def create_dag():
         }
     )
 
-    begin >> extract >> transform >> end
+    load = S3ToMySqlOperator(
+        task_id='load_denue_inegi',
+        s3_source_key=S3_BUCKET + '/' + S3_KEY_FINAL,
+        mysql_table=TABLE_NAME,
+        mysql_extra_options="""
+            FIELDS TERMINATED BY ','
+            IGNORE 1 LINES
+        """,
+        mysql_duplicate_key_handling='IGNORE'
+    )
+
+    begin >> extract >> transform >> load >> end
 
 globals()[DAG_ID] = create_dag()
