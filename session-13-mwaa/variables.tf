@@ -21,3 +21,8 @@ variable "vpc_cidr" {
   type        = string
   default     = "10.1.0.0/16"
 }
+
+variable "airflow_config_backend_kwargs" {
+  type        = map(string)
+  description = "It tells Airflow to look for the secret at the airflow/connections/* and airflow/variables/* path."
+}

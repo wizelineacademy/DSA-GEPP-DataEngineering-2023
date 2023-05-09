@@ -91,6 +91,7 @@ module "mwaa" {
   create_s3_bucket  = false
   source_bucket_arn = aws_s3_bucket.this.arn
   dag_s3_path       = "dags/"
+  airflow_config_backend_kwargs = { "connections_prefix" : "airflow/connections/dev", "variables_prefix" : "airflow/variables/dev" }
 
   logging_configuration = {
     dag_processing_logs = {
@@ -123,7 +124,10 @@ module "mwaa" {
     "core.load_default_connections" = "false"
     "core.load_examples"            = "false"
     "webserver.dag_default_view"    = "tree"
-    "webserver.dag_orientation"     = "TB"
+    "webserver.dag_orientation"     = "LR"
+    "secrets.backend"               = "airflow.providers.amazon.aws.secrets.secrets_manager.SecretsManagerBackend"
+    "secrets.backend_kwargs"        = jsonencode(var.airflow_config_backend_kwargs)
+    "logging.logging_level"         = "INFO"
   }
 
   min_workers        = 1
