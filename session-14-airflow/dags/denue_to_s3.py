@@ -11,8 +11,7 @@ import requests
 from botocore.exceptions import ClientError
 from datetime import datetime, timedelta
 
-from airflow import DAG
-from airflow.decorators import dag, task
+from airflow.decorators import dag
 from airflow.operators.dummy import DummyOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.mysql.operators.mysql import MySqlOperator
@@ -30,57 +29,14 @@ FILE_NAME = "denue_inegi_09_.csv"
 URL = 'https://www.inegi.org.mx/contenidos/masiva/denue/denue_09_csv.zip'
 
 # Constant values
-SECRET_NAME = "rds-mysql"
+MYSQL_CONN = "rds-mysql"
+AWS_CONN = "aws_conn"
 REGION_NAME = "us-east-1"
 S3_KEY_ORIGINAL = f"session-14-airflow/denue/original/{FILE_NAME}"
 S3_KEY_FINAL = f"session-14-airflow/denue/final/{FILE_NAME}"
 TABLE_NAME = "denue_inegi"
 
-# Setting the config for the Session
 session = boto3.session.Session()
-secrets_client = session.client(
-        service_name='secretsmanager',
-        region_name=REGION_NAME
-    )
-
-# Getting the secrets
-secrets_list = [SECRET_NAME]
-secrets = {
-        x: secrets_client.get_secret_value(
-            SecretId=f"airflow/connections/dev/{x}"
-        )['SecretString'] for x in secrets_list
-    }
-
-def get_secret(secret, region):
-    """
-    Get the secret from AWS Secrets Manager
-    
-    :param secret (str): Name of the Secret
-    :param region (str): Region in which the Secret is stored
-    :param profile (str): Profile name to be executed, left in blank to take default (optional)
-    
-    :return: String with the Secret Value
-    """    
-    
-    secret_name = secret
-
-    # Create a Secrets Manager client
-    client = session.client(
-        service_name='secretsmanager',
-        region_name=region
-    )
-
-    try:
-        get_secret_value_response = client.get_secret_value(
-            SecretId=secret_name
-        )
-    except ClientError as e:
-        raise e
-
-    # Decrypts secret using the associated KMS key.
-    secret = json.loads(get_secret_value_response['SecretString'])
-
-    return secret
 
 def upload_file_to_s3(bucket_name, s3_key, file_object, region, profile="default"):
     """
@@ -278,7 +234,8 @@ default_args = {
     #'email_on_retry': True,
     'retries': 1,
     'retry_delay': timedelta(minutes=3),
-    'mysql_conn_id': SECRET_NAME
+    'mysql_conn_id': MYSQL_CONN,
+    'aws_conn_id': AWS_CONN,
 }
 
 @dag(
