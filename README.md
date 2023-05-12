@@ -200,7 +200,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : Roberto Mendoza**
 
-- [Grabación]
+- [Grabación](https://www.youtube.com/watch?v=j1tjaHYlzfc)
 
 **SEMANA 9**
 
@@ -210,7 +210,7 @@ Los temas se dividen en 9 semanas, 2 sesiones por semana, 2 horas por sesión :
 
 **Instructor : John Sanchez**
 
-- [Grabación]
+- [Grabación](https://youtu.be/JVGmTtGL4VM)
 
 **Sesión Final : Capstone Project/Demo Session**
 
